@@ -1,6 +1,7 @@
+import drivers.*;
 public class Main {
 	public static void main(String[] args) {
-		drivers.Driver driver = new drivers.Driver();
+		Driver driver = new Driver();
 		driver.run();
 	}
 }
